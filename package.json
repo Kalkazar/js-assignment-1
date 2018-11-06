@@ -2,16 +2,24 @@
   "name": "js-assignment-codewarspresentation",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "https://github.com/wmarttala/js-assignment-codewarspresentation.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wmarttala/js-assignment-codewarspresentation.git"
+  },
   "scripts": {
     "prestart": "babel src -d lib",
     "start": "node lib/index.js"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
     "babel-eslint": "^8.2.1",
-    "babel-preset-env": "^1.6.1",
+    "babel-preset-env": "^1.7.0",
     "babel-preset-stage-0": "^6.24.1",
+    "eslint": "^5.8.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-node": "^8.0.0",
+    "eslint-plugin-standard": "^4.0.0",
     "standard": "^10.0.3"
   },
   "babel": {
@@ -28,4 +36,11 @@
       "stage-0"
     ]
   },
+  "description": "---",
+  "bugs": {
+    "url": "https://github.com/wmarttala/js-assignment-codewarspresentation/issues"
+  },
+  "homepage": "https://github.com/wmarttala/js-assignment-codewarspresentation#readme",
+  "author": "",
+  "license": "ISC"
 }
